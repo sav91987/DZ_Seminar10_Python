@@ -14,7 +14,7 @@ def change_contact_menu() -> int:
     print(text.change_contact_menu)
     while True:
         value = input(text.input_value)
-        if value.isdigit() and 0 < int(value) < 4:
+        if value.isdigit() and 0 < int(value)< 4:
             return int(value)
         
 
